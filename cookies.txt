@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.supergres.com	TRUE	/	FALSE	1999999999	csrftoken	V2zXGylk5Y0y52w1ZOeQEE93pEbZGT5Tga2yB3ZGpqDiKEdIdOrAgLbIY3TAiMNN
+www.supergres.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.supergres.com	TRUE	/	FALSE	1999999999	django_language	fr
+

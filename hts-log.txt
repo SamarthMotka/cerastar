@@ -1,0 +1,73 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 20 Jun 2024 11:23:35 at https://www.supergres.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.supergres.com -O1 "D:\porject\p2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:23:36	Warning: 	Found for https://www.supergres.com/
+11:23:36	Warning: 	File has moved from https://www.supergres.com/ to /en/
+11:26:52	Warning: 	Moved Permanently for https://www.supergres.com/en/floor-tiles/
+11:26:52	Warning: 	File has moved from https://www.supergres.com/en/floor-tiles/ to http://www.supergres.com/en/t20-outdoor-design-solutions/
+11:33:07	Error: 	"Not Found" (404) at link https://www.supergres.com/en/news/product-focus/planc-project-20x180/ (from https://www.supergres.com/en/)
+11:35:31	Warning: 	Moved Permanently for https://www.supergres.com/it/pavimenti-spessorati/
+11:35:31	Warning: 	File has moved from https://www.supergres.com/it/pavimenti-spessorati/ to http://www.supergres.com/it/t20-outdoor-design-solutions/
+11:36:24	Warning: 	Moved Permanently for https://www.supergres.com/it/collezioni/purity-marble-style/
+11:36:24	Warning: 	File has moved from https://www.supergres.com/it/collezioni/purity-marble-style/ to http://www.supergres.com/it/collezioni/purity-marble/
+11:38:05	Error: 	"Not Found" (404) at link https://www.supergres.com/it/news/focus-prodotti/planc-project-20x180/ (from https://www.supergres.com/it/)
+11:40:28	Warning: 	Moved Permanently for https://www.supergres.com/de/bodenfliesen-starke/
+11:40:28	Warning: 	File has moved from https://www.supergres.com/de/bodenfliesen-starke/ to http://www.supergres.com/de/t20-outdoor-design-solutions/
+11:41:55	Error: 	"Not Found" (404) at link https://www.supergres.com/de/news/product-news/planc-project-20x180/ (from https://www.supergres.com/de/)
+11:43:02	Warning: 	Moved Permanently for https://www.supergres.com/fr/sols-epaisseur/
+11:43:02	Warning: 	File has moved from https://www.supergres.com/fr/sols-epaisseur/ to http://www.supergres.com/fr/t20-outdoor-design-solutions/
+11:44:17	Error: 	"Not Found" (404) at link https://www.supergres.com/fr/nouvelles/nouveaux-produits/planc-project-20x180/ (from https://www.supergres.com/fr/)
+12:03:03	Warning: 	Moved Permanently for https://www.supergres.com/en/news/news/None/
+12:03:03	Warning: 	File has moved from https://www.supergres.com/en/news/news/None/ to http://www.supergres.com/en/news/
+12:03:57	Error: 	"Not Found" (404) at link https://www.supergres.com/media/filer_public/91/65/91650c82-e889-4151-824d-d6dab92d5824/manuale_di_posa_uso_pulizia_manutenzione_eng.pdf (from https://www.supergres.com/en/general-terms-and-conditions-sale/)
+12:21:01	Warning: 	Moved Permanently for https://www.supergres.com/it/collezioni/setting/spazi-pubblici/
+12:21:01	Warning: 	File has moved from https://www.supergres.com/it/collezioni/setting/spazi-pubblici/ to http://www.supergres.com/it/collezioni/setting/spazi-commerciali-e-pubblici/
+12:21:41	Error: 	"Not Found" (404) at link https://www.supergres.com/media/filer_public/2e/32/2e325e34-475b-49da-beca-3af47ae10c05/manuale_di_posa_uso_pulizia_manutenzione.pdf (from https://www.supergres.com/it/condizioni-generali-di-vendita/)
+12:21:41	Warning: 	Moved Permanently for https://www.supergres.com/it/collezioni/coastroad/
+12:21:41	Warning: 	File has moved from https://www.supergres.com/it/collezioni/coastroad/ to http://www.supergres.com/it/collezioni/
+12:21:41	Warning: 	Moved Permanently for https://www.supergres.com/it/collezioni/rayclay/ollections/rayclay/
+12:21:41	Warning: 	File has moved from https://www.supergres.com/it/collezioni/rayclay/ollections/rayclay/ to http://www.supergres.com/it/collezioni/rayclay/
+12:21:41	Warning: 	Moved Permanently for https://www.supergres.com/it/collezioni/setting/soggiorno/
+12:21:41	Warning: 	File has moved from https://www.supergres.com/it/collezioni/setting/soggiorno/ to http://www.supergres.com/it/collezioni/setting/living/
+12:21:41	Warning: 	Moved Permanently for https://www.supergres.com/it/collezioni/setting/camera/
+12:21:41	Warning: 	File has moved from https://www.supergres.com/it/collezioni/setting/camera/ to http://www.supergres.com/it/collezioni/setting/zona-notte/
+12:21:41	Warning: 	Moved Permanently for https://www.supergres.com/it/comunicazione/
+12:21:41	Warning: 	File has moved from https://www.supergres.com/it/comunicazione/ to http://www.supergres.com/it/news/
+12:42:41	Error: 	"Not Found" (404) at link https://www.supergres.com/media/filer_public/f3/69/f3692490-c0bc-45c2-85cd-dce8f1f97ae2/manuale_di_posa_uso_pulizia_manutenzione_ted.pdf (from https://www.supergres.com/de/allgemeine-verkaufs-und-lieferbedingungen/)
+13:10:57	Error: 	"Not Found" (404) at link https://www.supergres.com/media/filer_public/44/45/444538f2-bf2e-4a01-b943-dec1eb5551bf/manuale_di_posa_uso_pulizia_manutenzione_fra.pdf (from https://www.supergres.com/fr/conditions-generales-de-vente/)
+13:11:10	Warning: 	Moved Permanently for https://www.supergres.com/en/collections/freedhome-t_20/
+13:11:10	Warning: 	File has moved from https://www.supergres.com/en/collections/freedhome-t_20/ to /en/collections/freedhome/
+13:11:10	Warning: 	Moved Permanently for https://www.supergres.com/en/collections/color-info/sand/
+13:11:10	Warning: 	File has moved from https://www.supergres.com/en/collections/color-info/sand/ to http://www.supergres.com/en/collections/
+13:11:38	Warning: 	Moved Permanently for https://www.supergres.com/en/collections/purity-marble-style/
+13:11:38	Warning: 	File has moved from https://www.supergres.com/en/collections/purity-marble-style/ to http://www.supergres.com/en/collections/purity-marble/
+13:11:43	Warning: 	Moved Permanently for https://www.supergres.com/it/collezioni/color-info/sand/
+13:11:43	Warning: 	File has moved from https://www.supergres.com/it/collezioni/color-info/sand/ to http://www.supergres.com/it/collezioni/
+13:11:44	Warning: 	Moved Permanently for https://www.supergres.com/it/collezioni/purity-brecce/
+13:11:44	Warning: 	File has moved from https://www.supergres.com/it/collezioni/purity-brecce/ to http://www.supergres.com/it/collezioni/purity-marble/
+13:11:44	Warning: 	Moved Permanently for https://www.supergres.com/it/collezioni/relive/
+13:11:44	Warning: 	File has moved from https://www.supergres.com/it/collezioni/relive/ to http://www.supergres.com/it/collezioni/
+13:11:44	Warning: 	Moved Permanently for https://www.supergres.com/it/collezioni/walk-t20/
+13:11:44	Warning: 	File has moved from https://www.supergres.com/it/collezioni/walk-t20/ to /it/collezioni/walk/
+13:11:45	Warning: 	Moved Permanently for https://www.supergres.com/de/kollektionen/color-info/sand/
+13:11:45	Warning: 	File has moved from https://www.supergres.com/de/kollektionen/color-info/sand/ to http://www.supergres.com/de/kollektionen/
+13:11:45	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.supergres.com/de/downloads/watch/Catalog/catalog_medley-wall/ (from https://www.supergres.com/de/kollektionen/medley-wall/)
+13:11:45	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.supergres.com/de/downloads/watch/Catalog/catalog_met-all/ (from https://www.supergres.com/de/kollektionen/met-all/)
+13:11:46	Warning: 	Retry after error -4 (Incorrect length (756736 Bytes, 2021646 expected)) at link https://www.supergres.com/de/downloads/watch/Catalog/catalog_story/ (from https://www.supergres.com/de/kollektionen/story/)
+13:11:47	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.supergres.com/de/downloads/watch/Catalog/catalog_travel/ (from https://www.supergres.com/de/kollektionen/travel/)
+13:12:07	Warning: 	Moved Permanently for https://www.supergres.com/de/kollektionen/purity-marble-style/
+13:12:07	Warning: 	File has moved from https://www.supergres.com/de/kollektionen/purity-marble-style/ to http://www.supergres.com/de/kollektionen/purity-marble/
+13:12:08	Warning: 	Retry after error -4 (Incorrect length (3656064 Bytes, 7778078 expected)) at link https://www.supergres.com/fr/downloads/watch/Catalog/catalog_colovers/ (from https://www.supergres.com/fr/collections/colovers/)
+13:12:25	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.supergres.com/fr/downloads/watch/Catalog/catalog_french-mood/ (from https://www.supergres.com/fr/collections/french-mood/)
+13:12:32	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.supergres.com/fr/downloads/watch/Catalog/catalog_h-24/ (from https://www.supergres.com/fr/collections/h-24/)
+13:12:58	Error: 	"Not Found" (404) at link https://www.supergres.com/fr/collections/purity-marble-style/ (from https://www.supergres.com/fr/nouvelles/nouveaux-produits/news-cersaie-2023/)
+13:18:11	Warning: 	Retry after error -4 (Incorrect length (7657600 Bytes, 7778078 expected)) at link https://www.supergres.com/fr/downloads/watch/Catalog/catalog_colovers/ (from https://www.supergres.com/fr/collections/colovers/)
+13:18:11	Error: 	"Connect Error" (-4) after 2 retries at link https://www.supergres.com/fr/downloads/watch/Catalog/catalog_colovers/ (from https://www.supergres.com/fr/collections/colovers/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 54 minutes 36 seconds : 4924 links scanned, 4883 files written (981286019 bytes overall) [919019502 bytes received at 133656 bytes/sec], 104881264 bytes transferred using HTTP compression in 1895 files, ratio 31%, 24.7 requests per connection
+(10 errors, 52 warnings, 0 messages)
