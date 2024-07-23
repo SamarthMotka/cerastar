@@ -4091,7 +4091,7 @@ select:not([multiple]) {
 
 .menu.expanded li {
     -ms-flex: 1 1 0px;
-    flex: 1 1 0px
+    flex: 1 1 0px;
 }
 
 .menu.expanded.icon-bottom li a i,
@@ -5397,11 +5397,11 @@ figure figcaption {
 @media print,
 screen and (min-width:40em) {
     .transparent-header:not(.blend-mega) .header {
-        position: absolute;
+        position: sticky;
         top: 0;
         left: 0;
         width: 100%;
-        background-color: transparent
+        background-color: #f1f1f1;
     }
 
     .transparent-header:not(.blend-mega) .header .logo .logosvg {
@@ -5409,7 +5409,7 @@ screen and (min-width:40em) {
     }
 
     .transparent-header:not(.blend-mega) .header .menu.nav--primary>li>a {
-        color: #fff
+        color: black
     }
 
     .transparent-header:not(.blend-mega) .header .menu.nav--primary>li>a:hover {
@@ -5417,7 +5417,7 @@ screen and (min-width:40em) {
     }
 
     .transparent-header:not(.blend-mega) .header .mobile-button svg {
-        fill: #fff
+        fill: black
     }
 }
 
@@ -15203,5 +15203,326 @@ screen and (min-width:40em) {
         position: relative
     }
 }
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    color: black;
+    font-size: 14px;
+    background: #111;
+   
+  }
+#footer a{
+    text-decoration: none;
+    color: black;
+}
+  
+  #footer .footer-top {
+    padding: 60px 0 30px 0;
+    /* background: #1e1e1e; */
+     background-color: #f5f5f5;
+  }
+  
+  #footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-contact h3 {
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+  }
+  
+  #footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Red Hat Display", sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  #footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer .footer-top .footer-links ul i {
+    /* padding-right: 2px; */
+    /* color: #1ed33c; */
+    font-size: 18px;
+    line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul li {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  #footer .footer-top .footer-links ul a {
+    /* color: rgba(255, 255, 255, 0.6); */
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+    color: black;
+  }
+  
+  .footer-logo img {
+    max-width: 50%;
+  }
+  .footer-logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+.cpr{
+    /* background-color: black; */
+    color: white;
+    border-top: 1px solid #343434;
+}
+
+/* .heading-downloads{
+    margin-top: 100px;
+} */
+.heading-downloads div:first-child{
+    background-color: #f1f1f1;
+    padding: 40px;
+}
+.heading-downloads a{
+    text-decoration: none;
+    color: black;
+}
+.downloads h3{
+    margin: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+/* portfolio section  */
+
+/*--------------------------------------------------------------
+# Projects Section
+--------------------------------------------------------------*/
+.projects .portfolio-filters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+  }
+  
+  
+  .projects .portfolio-content {
+    position: relative;
+    overflow: hidden;
+  }
+ 
+  
+  .projects .portfolio-content .portfolio-info {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+  }
+  
+
+  .projects .portfolio-content .portfolio-info p {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .projects .portfolio-content .portfolio-info .preview-link,
+  .projects .portfolio-content .portfolio-info .details-link {
+    position: absolute;
+    left: calc(50% - 40px);
+    font-size: 26px;
+    top: calc(50% - 14px);
+    color: #fff;
+    transition: 0.3s;
+    line-height: 1.2;
+  }
+  
+  .projects .portfolio-content .portfolio-info .preview-link:hover,
+  .projects .portfolio-content .portfolio-info .details-link:hover {
+    color: var(--accent-color);
+  }
+  
+  .projects .portfolio-content .portfolio-info .details-link {
+    left: 50%;
+    font-size: 34px;
+    line-height: 0;
+  }
+  
+  .projects .portfolio-content:hover .portfolio-info {
+    opacity: 1;
+  }
+
+  .display-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .display-btn a{ 
+    font-size: 14px;
+    margin: 25px 10px;
+    padding: 12px 25px;
+    border: 1px solid #343434;
+    text-decoration: none;
+    color: black;
+  }
+
+  .display-btn a:hover{ 
+   background-color: #e8e8e8;
+   transition: ease-in-out 1.5s;
+  }
+  .pdf-sec{
+    flex-wrap: wrap;
+  }
+  .filter-btn{
+    padding: 10px 20px;
+    margin: 10px 10px;
+    
+  }
+  .filter-btn:hover{
+    color: #313131;
+  }
+  .filter-btn.active {
+    padding: 8px 18px;
+    border: 2px solid #343434;
+  }
+  
+  .isotope-layout{
+    border-top: 1px solid #343434;
+    padding-top: 40px;
+  }
+
+/* contact query btn  */
+
+.contact-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.contact-modal {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 250px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.contact-modal.active {
+    display: block;
+}
+
+.contact-modal .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-modal .modal-header h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.contact-modal .modal-header .close {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contact-modal .modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-modal .modal-body a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.contact-modal .modal-body a:hover {
+    background-color: #f0f0f0;
+}
+
+.contact-modal .modal-body a img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
 
 /*# sourceMappingURL=app.7c7a5e1b22edf3fa4f24.css.map */
