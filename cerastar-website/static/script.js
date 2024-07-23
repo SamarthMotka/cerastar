@@ -51,8 +51,15 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 imageUrl: "https://res.cloudinary.com/da5crwlqh/image/upload/v1718292543/Khoj/Wearables/Kids/luaca1bx8ocn7ho6st9r.jpg",
                 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                downloadUrl: "#",
-                viewUrl: "#",
+                downloadUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
+                viewUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
+                category: "category-name" // Add your category name here
+            },
+            {
+                imageUrl: "https://res.cloudinary.com/da5crwlqh/image/upload/v1718292543/Khoj/Wearables/Kids/luaca1bx8ocn7ho6st9r.jpg",
+                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                downloadUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
+                viewUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
                 category: "category-name" // Add your category name here
             },
             // Add more card data objects as needed

@@ -88,23 +88,41 @@
                             class="cell small-8 medium-offset-0 medium-auto large-3"
                         >
                             <div class="logo">
-                                <img
-                                    src="./weblogo-removebg-preview.png"
-                                    width="150px"
-                                    height="150px"
-                                />
+                                <a href="index.html"><img
+                                 src="./weblogo-removebg-preview.png"
+                                 width="150px"
+                                 height="150px"
+                             /></a>
                             </div>
                         </div>
                         <div class="cell large-auto show-for-large">
                             <ul class="dropdown menu nav nav--primary">
-                                <li class="nav__item nav--primary__item">
+                              <li class="nav__item nav--primary__item">
+                                 <a
+                                     class=" button nav__link nav--primary__link"
+                                     href="#"
+                                     data-contact-trigger
+                                 >
+                                     ABOUT US
+                                 </a>
+                             </li>  
+                              <li class="nav__item nav--primary__item">
+                                 <a
+                                     class="button nav__link nav--primary__link"
+                                     href="calc.html"
+                                 >
+                                     INTERACTIVE
+                                 </a>
+                             </li>  
+                              
+                              <li class="nav__item nav--primary__item">
                                     <a
-                                        class="nav__link nav--primary__link"
+                                        class="button nav__link nav--primary__link"
                                         href="#"
                                     >
                                         COLLECTIONS
                                     </a>
-                                    <div
+                                    <!-- <div
                                         class="sub-main-menu-w mega-menu-wrapper"
                                     >
                                         <ul class="menu vertical sub-main-menu">
@@ -136,23 +154,7 @@
                                                 </div>
                                             </li>
                                         </ul>
-                                    </div>
-                                </li>
-                                <li class="nav__item nav--primary__item">
-                                    <a
-                                        class="nav__link nav--primary__link"
-                                        href="#"
-                                    >
-                                        OUTDOOR
-                                    </a>
-                                </li>
-                                <li class="nav__item nav--primary__item">
-                                    <a
-                                        class="nav__link nav--primary__link"
-                                        href="#"
-                                    >
-                                        DEALER
-                                    </a>
+                                    </div> -->
                                 </li>
                                 <!-- <li class="nav__item nav--primary__item"> <a class="nav__link  nav--primary__link"
                            href="downloads/index.html"> DOWNLOADS </a> </li>
@@ -160,7 +162,7 @@
                                href="visualizer/index.html"> VISUALIZER </a> </li> -->
                                 <li class="nav__item nav--primary__item">
                                     <a
-                                        class="nav__link nav--primary__link"
+                                        class="button nav__link nav--primary__link"
                                         href="#"
                                         data-contact-trigger
                                     >
@@ -171,28 +173,10 @@
                                 <li class="nav-item dropdown">
                                     <a
                                         href="downloads.html"
-                                        class="nav-link dropdown-toggle"
-                                        id="navbarDropdown"
-                                        role="button"
-                                        data-toggle="dropdown"
-                                        aria-haspopup="true"
-                                        aria-expanded="false"
+                                        class="button nav-link"
                                     >
                                         DOWNLOAD
-                                    </a>
-                                    <div
-                                        class="dropdown-menu"
-                                        style="min-width: 100px; display: none"
-                                        aria-labelledby="navbarDropdown"
-                                    >
-                                        <a class="dropdown-item" href="#"
-                                            >English</a
-                                        >
-                                        <a class="dropdown-item" href="#"
-                                            >Spanish</a
-                                        >
-                                        <!-- Add more LOREM options as needed -->
-                                    </div>
+                                </a>
                                 </li>
                             </ul>
                         </div>
@@ -268,16 +252,6 @@
                         </svg>
                     </button>
                 </div>
-                <div class="lang-switcher">
-                    <ul class="menu horizontal nav nav--langs">
-                        <li><a href="../it/index.html" class="">Italian</a></li>
-                        <li>
-                            <a href="index.html" class="current">English</a>
-                        </li>
-                        <li><a href="../fr/index.html" class="">French</a></li>
-                        <li><a href="../de/index.html" class="">German</a></li>
-                    </ul>
-                </div>
                 <div class="small-menu-section">
                     <ul
                         class="menu vertical nav nav--mobile drilldown"
@@ -333,16 +307,6 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="child style-1">
-                            <a href="outdoor/index.html" target="_self"
-                                >Outdoor</a
-                            >
-                        </li>
-                        <li class="child style-2">
-                            <a href="dealer/index.html" target="_self"
-                                >Dealer</a
-                            >
-                        </li>
                         <li class="child style-3">
                             <a
                                 href="italian-tile-manufacturer/index.html"
@@ -350,8 +314,15 @@
                                 >About us</a
                             >
                         </li>
+                        <li class="child style-3">
+                            <a
+                                href="calc.html"
+                                target="_self"
+                                >Interactive</a
+                            >
+                        </li>
                         <li class="child style-5">
-                            <a href="downloads/index.html" target="_self"
+                            <a href="downloads.html" target="_self"
                                 >Downloads</a
                             >
                         </li>
@@ -361,27 +332,6 @@
                             >
                         </li>
                     </ul>
-                </div>
-                <div class="footer-section">
-                    <div class="tools-links">
-                        <ul class="menu vertical nav nav--tools">
-                            <li>
-                                <a
-                                    class="nav__newsletter"
-                                    href="newsletter/index.html"
-                                    >Newsletter</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    class="nav__private-area"
-                                    target="_blank"
-                                    href="http://mysupergres.gruppoconcorde.it/_layouts/15/sgs/default.aspx?ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F%253Fm%253D13&amp;Source=%2F%3Fm%3D13"
-                                    >My Supergres</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </header>
@@ -411,13 +361,13 @@
                                                 height="800"
                                             />
                                             <img
-                                                src="../media/filer_public/a8/91/a891630f-f9e8-47e0-9116-34a2ea006170/supergres_4ever_havana_cucina.jpg"
+                                                src="../media/__sized__/products/home_carosel/img1.jpg"
                                                 width="2785"
                                                 height="1410"
                                                 alt="4Ever Collection"
                                             />
                                         </picture>
-                                        <div
+                                        <!-- <div
                                             class="content-w column-dir main_start cross_center pad-right-x4-small pad-left-x4-small"
                                         >
                                             <h2
@@ -437,7 +387,7 @@
                                             >
                                                 LOREM
                                             </a>
-                                        </div>
+                                        </div> -->
                                     </a>
                                 </div>
                                 <div
@@ -453,13 +403,13 @@
                                             height="800"
                                         />
                                         <img
-                                            src="../media/filer_public/8d/ff/8dff3cf4-9be5-469b-81f4-5f94bad190ad/banner_kalkarea.jpg"
+                                            src="../media/__sized__/products/home_carosel/img2.jpg"
                                             width="2785"
                                             height="1410"
                                             alt="Kalkarea Collection"
                                         />
                                     </picture>
-                                    <div
+                                    <!-- <div
                                         class="content-w column-dir main_start cross_center pad-right-x4-small pad-left-x4-small"
                                     >
                                         <h2
@@ -479,7 +429,7 @@
                                         >
                                             LOREM
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div
                                     class="swiper-slide swiper-slide--centered"
@@ -498,13 +448,13 @@
                                                 height="800"
                                             />
                                             <img
-                                                src="../media/filer_public/b9/04/b904b434-bb5d-4690-9ff9-13ffbe246287/cobb.jpg"
+                                                src="../media/__sized__/products/home_carosel/img3.jpg"
                                                 width="2785"
                                                 height="1410"
                                                 alt="Cobb Collection"
                                             />
                                         </picture>
-                                        <div
+                                        <!-- <div
                                             class="content-w column-dir main_start cross_center pad-right-x4-small pad-left-x4-small"
                                         >
                                             <h2
@@ -524,7 +474,7 @@
                                             >
                                                 LOREM
                                             </a>
-                                        </div>
+                                        </div> -->
                                     </a>
                                 </div>
                                 <div
@@ -544,13 +494,13 @@
                                                 height="800"
                                             />
                                             <img
-                                                src="../media/filer_public/51/38/51388358-8648-419f-92fb-14c28b8100d8/rayclay-2.jpg"
+                                                src="../media/__sized__/products/home_carosel/img4.jpg"
                                                 width="2785"
                                                 height="1410"
                                                 alt="Rayclay Collection"
                                             />
                                         </picture>
-                                        <div
+                                        <!-- <div
                                             class="content-w column-dir main_start cross_center pad-right-x4-small pad-left-x4-small"
                                         >
                                             <h2
@@ -570,7 +520,7 @@
                                             >
                                                 LOREM
                                             </a>
-                                        </div>
+                                        </div> -->
                                     </a>
                                 </div>
                                 <div
@@ -590,13 +540,13 @@
                                                 height="800"
                                             />
                                             <img
-                                                src="../media/filer_public/c2/6d/c26dc2bd-d4f5-4547-921e-d115cabb13de/purity.jpg"
+                                                src="../media/__sized__/products/home_carosel/img5.jpg"
                                                 width="2785"
                                                 height="1410"
                                                 alt="Purity Style Collection"
                                             />
                                         </picture>
-                                        <div
+                                        <!-- <div
                                             class="content-w column-dir main_start cross_center pad-right-x4-small pad-left-x4-small"
                                         >
                                             <h2
@@ -616,10 +566,10 @@
                                             >
                                                 LOREM
                                             </a>
-                                        </div>
+                                        </div> -->
                                     </a>
                                 </div>
-                                <div
+                                <!-- <div
                                     class="swiper-slide swiper-slide--centered"
                                 >
                                     <a
@@ -664,7 +614,7 @@
                                             </a>
                                         </div>
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                             <div
                                 class="swiper-button-prev arrows-style-1"
@@ -713,56 +663,7 @@
                                 </div>
                             </div>
                             <div class="grid-x grid-margin-x grid-margin-y">
-                                <div class="cell desktop-search__filters">
-                                    <div class="filters-w">
-                                        <div
-                                            class="ios-segmented-control hide-for-small-only"
-                                        >
-                                            <span class="selection"></span>
-                                            <div class="option">
-                                                <input
-                                                    type="radio"
-                                                    id="Effects"
-                                                    name="media-filters"
-                                                    value="Effects"
-                                                    checked
-                                                />
-                                                <label for="Effectss"
-                                                    ><span>Effects</span></label
-                                                >
-                                            </div>
-                                            <div class="option">
-                                                <input
-                                                    type="radio"
-                                                    id="Settingss"
-                                                    name="media-filters"
-                                                    value="Settings"
-                                                />
-                                                <label for="Settingss"
-                                                    ><span
-                                                        >Settings</span
-                                                    ></label
-                                                >
-                                            </div>
-                                            <div class="option">
-                                                <input
-                                                    type="radio"
-                                                    id="Colorss"
-                                                    name="media-filters"
-                                                    value="Colors"
-                                                />
-                                                <label for="Colors"
-                                                    ><span>Colors</span></label
-                                                >
-                                            </div>
-                                        </div>
-                                        <a
-                                            class="btn btn--solid-rounddddd"
-                                            href="#"
-                                            >Advanced search</a
-                                        >
-                                    </div>
-                                </div>
+                                
                                 <div
                                     class="cell desktop-search__content"
                                     data-results
@@ -856,236 +757,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div
-                            class="grid-container full mobile-search show-for-small-only"
-                            data-mobile-search-wrapper
-                        >
-                            <div class="grid-x">
-                                <div class="cell">
-                                    <h3 class="mobile-search__title">
-                                        Search by
-                                    </h3>
-                                </div>
-                                <div class="cell">
-                                    <div
-                                        class="swiper swiper-container"
-                                        data-swiper='{"pagination": {"el": ".swiper-pagination", "type": "bullets"}, "spaceBetween": 20}'
-                                    >
-                                        <div class="swiper-wrapper">
-                                            <div
-                                                class="swiper-slide mobile-search__slide"
-                                            >
-                                                <a
-                                                    href="collections/mobile-search-data/indexd264.html?searchby=settings"
-                                                    data-mobile-search
-                                                >
-                                                    <img
-                                                        src="../media/__sized__/products/plugins/settings_search-crop-c0-5__0-5-400x180.png"
-                                                        alt="Search by setting"
-                                                    />
-                                                    <p>settings</p>
-                                                </a>
-                                            </div>
-                                            <div
-                                                class="swiper-slide mobile-search__slide"
-                                            >
-                                                <a
-                                                    href="collections/mobile-search-data/indexd221.html?searchby=effects"
-                                                    data-mobile-search
-                                                >
-                                                    <img
-                                                        src="../media/__sized__/products/plugins/effects_search-crop-c0-5__0-5-400x180.png"
-                                                        alt="Search by effects"
-                                                    />
-                                                    <p>effects</p>
-                                                </a>
-                                            </div>
-                                            <div
-                                                class="swiper-slide mobile-search__slide"
-                                            >
-                                                <a
-                                                    href="collections/mobile-search-data/index7ac1.html?searchby=colors"
-                                                    data-mobile-search
-                                                >
-                                                    <img
-                                                        src="../media/__sized__/products/plugins/colors_search-crop-c0-5__0-5-400x180.png"
-                                                        alt="Search by colors"
-                                                    />
-                                                    <p>colors</p>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-pagination"></div>
-                                    </div>
-                                </div>
-                                <div class="cell">
-                                    <div class="mobile-search-byname">
-                                        <select
-                                            name="search-byname"
-                                            data-search-byname
-                                        >
-                                            <option value="">
-                                                Search by name
-                                            </option>
-                                            <option
-                                                value="/en/collections/4ever/"
-                                            >
-                                                4EVER
-                                            </option>
-                                            <option
-                                                value="/en/collections/adige/"
-                                            >
-                                                ADIGE
-                                            </option>
-                                            <option
-                                                value="/en/collections/art/"
-                                            >
-                                                ART
-                                            </option>
-                                            <option
-                                                value="/en/collections/astrum/"
-                                            >
-                                                ASTRUM
-                                            </option>
-                                            <option
-                                                value="/en/collections/cobb/"
-                                            >
-                                                COBB
-                                            </option>
-                                            <option
-                                                value="/en/collections/colovers/"
-                                            >
-                                                COLOVERS
-                                            </option>
-                                            <option
-                                                value="/en/collections/ekho/"
-                                            >
-                                                EKHO
-                                            </option>
-                                            <option
-                                                value="/en/collections/epika/"
-                                            >
-                                                EPIKA
-                                            </option>
-                                            <option
-                                                value="/en/collections/forth/"
-                                            >
-                                                FORTH
-                                            </option>
-                                            <option
-                                                value="/en/collections/four-seasons/"
-                                            >
-                                                FOUR SEASONS
-                                            </option>
-                                            <option
-                                                value="/en/collections/freedhome/"
-                                            >
-                                                FREEDHOME
-                                            </option>
-                                            <option
-                                                value="/en/collections/french-mood/"
-                                            >
-                                                FRENCH MOOD
-                                            </option>
-                                            <option
-                                                value="/en/collections/h-24/"
-                                            >
-                                                H.24
-                                            </option>
-                                            <option
-                                                value="/en/collections/husk/"
-                                            >
-                                                HUSK
-                                            </option>
-                                            <option
-                                                value="/en/collections/kalkarea/"
-                                            >
-                                                KALKAREA
-                                            </option>
-                                            <option
-                                                value="/en/collections/medley-wall/"
-                                            >
-                                                MEDLEY WALL
-                                            </option>
-                                            <option
-                                                value="/en/collections/met-all/"
-                                            >
-                                                MET.ALL
-                                            </option>
-                                            <option
-                                                value="/en/collections/moonlit/"
-                                            >
-                                                MOONLIT
-                                            </option>
-                                            <option
-                                                value="/en/collections/natural-appeal/"
-                                            >
-                                                NATURAL APPEAL
-                                            </option>
-                                            <option
-                                                value="/en/collections/overtime/"
-                                            >
-                                                OVERTIME
-                                            </option>
-                                            <option
-                                                value="/en/collections/purity-marble/"
-                                            >
-                                                PURITY MARBLE
-                                            </option>
-                                            <option
-                                                value="/en/collections/rayclay/"
-                                            >
-                                                RAYCLAY
-                                            </option>
-                                            <option
-                                                value="/en/collections/stonework/"
-                                            >
-                                                STONEWORK
-                                            </option>
-                                            <option
-                                                value="/en/collections/stoorm/"
-                                            >
-                                                STOORM
-                                            </option>
-                                            <option
-                                                value="/en/collections/story/"
-                                            >
-                                                STORY
-                                            </option>
-                                            <option
-                                                value="/en/collections/travel/"
-                                            >
-                                                TRAVEL
-                                            </option>
-                                            <option
-                                                value="/en/collections/walk/"
-                                            >
-                                                WALK
-                                            </option>
-                                            <option
-                                                value="/en/collections/your-match-palette-n2/"
-                                            >
-                                                YOUR MATCH PALETTE N°2
-                                            </option>
-                                            <option
-                                                value="/en/collections/yourmatch/"
-                                            >
-                                                YOURMATCH
-                                            </option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="cell">
-                                    <div class="mobile-search-byname-all">
-                                        <a
-                                            class="btn btn--solid btn--middlegray"
-                                            href="#"
-                                            >All collections</a
-                                        >
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="grid-container">
                             <div class="grid-x">
                                 <div class="cell">
@@ -1108,65 +780,60 @@
                                         <h2
                                             class="heading weight-extra-bold txt-uppercase h3 space-down"
                                         >
-                                            Kam jis n
-                                            <span
-                                                >for <br />Kam jis n<br />
-                                                sKam</span
+                                            12 x 24
+                                            <span><br />12 x 24<br />
+                                             12 x 24</span
                                             >
                                         </h2>
+                                        <span class="home-desc-text">Welcome to Our Exquisite Collection of <br> 12 x 24 Inch Ceramic Tiles</span>
                                         <p>
-                                            Lorem ipsum, dolor sit amet
-                                            consectetur adipisicing elit. Nemo,
-                                            id esse. Nulla error provident ipsa
-                                            ullam unde iusto pariatur, ipsam in
-                                            rerum maiores dolorum optio
-                                            reprehenderit excepturi aspernatur
-                                            architecto cum.
+                                    
+                                          Discover the perfect blend of elegance and durability with our 12 x 24 inch ceramic tiles. Designed to transform any space, these tiles are an ideal choice for both residential and commercial projects. Whether you are looking to revamp your kitchen, bathroom, or living area, our tiles offer versatility and style.
                                         </p>
-                                        <a
+                                        <!-- <a
                                             class="btn space-up-x2 btn--text"
                                             href="ceramiche-supergres-120x278-slabs/index.html"
                                             target="_self"
                                         >
                                             see more
-                                        </a>
+                                        </a> -->
                                     </div>
                                 </div>
                                 <div
                                     class="cell order-1-medium order-1-small large-6"
                                 >
-                                    <a
+                                    <!-- <a
                                         href="ceramiche-supergres-120x278-slabs/index.html"
                                         target="_self"
                                         class="pc-img-wrapper"
-                                    >
+                                    > -->
                                         <picture class="">
                                             <img
-                                                src="../media/filer_public/8a/25/8a25738c-ebad-47c9-8a39-a071c6bf1a71/generated_lastre1_copia.jpg.1200x900_q100_crop.jpg"
+                                                src="../media/home_photos/12x24.png"
                                                 width="1200"
                                                 height="900"
                                                 alt="Lastre per ambienti contemporanei"
                                             />
                                         </picture>
-                                    </a>
+                                    <!-- </a> -->
                                 </div>
                             </div>
                             <div class="grid-x light-gray-color align-middle">
                                 <div class="cell large-6">
-                                    <a
+                                    <!-- <a
                                         href="t20-outdoor-design-solutions/index.html"
                                         target="_self"
                                         class="pc-img-wrapper"
-                                    >
+                                    > -->
                                         <picture class="">
                                             <img
-                                                src="../media/filer_public/6d/1a/6d1ab61d-24c7-4343-81dc-6e52cc0a32f5/generated_t_20_copia.jpg.1200x900_q100_crop.jpg"
+                                                src="../media/home_photos/600x600.png"
                                                 width="1200"
                                                 height="900"
                                                 alt="T20 outdoor design solutions"
                                             />
                                         </picture>
-                                    </a>
+                                    <!-- </a> -->
                                 </div>
                                 <div class="cell large-6">
                                     <div
@@ -1175,28 +842,15 @@
                                         <h2
                                             class="heading weight-extra-bold txt-uppercase h3 space-down"
                                         >
-                                            Kam jis n<br />
+                                            600 x 600<br />
                                             <span
-                                                >Kam jis n<br />Kam jis n<br />
-                                                Kam jis n</span
+                                                >600 x 600<br />600 x 600</span
                                             >
                                         </h2>
+                                        <span class="home-desc-text">Elevate Your Space with Our 600 x 600 mm Ceramic Tiles</span>
                                         <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Veniam
-                                            iure optio voluptatum, laboriosam
-                                            illum a reiciendis soluta quae
-                                            consequatur, molestias quibusdam, ea
-                                            culpa accusamus totam fugit aperiam
-                                            sapiente! Amet, impedit.
+                                          Enhance your space with our 600 x 600 mm ceramic tiles, offering a perfect blend of style and durability. Ideal for both residential and commercial use, these tiles are available in a variety of colors, patterns, and finishes. They are easy to clean, highly resistant to wear, and crafted using eco-friendly practices. Perfect for living rooms, kitchens, bathrooms, offices, and even outdoor areas, our 600 x 600 mm tiles are designed to provide a seamless and sophisticated look to any space.
                                         </p>
-                                        <a
-                                            class="btn space-up-x2 btn--text"
-                                            href="t20-outdoor-design-solutions/index.html"
-                                            target="_self"
-                                        >
-                                            see more
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1212,65 +866,53 @@
                                         >
                                             <!-- WHITE BODY CERAMIC WALL<br /> <span>THE IDEAL SOLUTION <br />FOR EVERY TYPE
                                     <br />OF INTERIOR WALLS</span> -->
-                                            Kam jis n<br />
+                                            600 x 1200<br />
                                             <span
-                                                >Kam jis n<br />Kam jis n<br />
-                                                Kam jis n</span
+                                                >600 x 1200<br />600 x 1200</span
                                             >
                                         </h2>
+                                        <span class="home-desc-text">Transform Your Space with 600 x 1200 mm Ceramic Tiles</span>
                                         <p>
-                                            Lorem ipsum dolor, sit amet
-                                            consectetur adipisicing elit. Odit
-                                            voluptate, aut nostrum odio cum
-                                            molestias distinctio perferendis
-                                            inventore. Doloribus a laudantium
-                                            porro ut consequuntur et corporis
-                                            repudiandae. A, voluptatibus est.
+                                          Transform your interiors with our 600 x 1200 mm ceramic tiles, ideal for creating a luxurious, seamless appearance in large spaces. These premium quality tiles come in matte, glossy, and textured finishes and are perfect for open-plan living areas, feature walls, and commercial projects like office lobbies and hotel interiors. Easy to clean and resistant to scratches and stains, our 600 x 1200 mm tiles are crafted using sustainable methods and designed to offer both beauty and functionality.
                                         </p>
-                                        <a
-                                            class="btn space-up-x2 btn--text"
-                                            href="pasta-bianca/index.html"
-                                            target="_self"
-                                        >
-                                            Discover more
-                                        </a>
+                                        
                                     </div>
                                 </div>
                                 <div
                                     class="cell order-1-medium order-1-small large-6"
                                 >
-                                    <a
+                                    <!-- <a
                                         href="pasta-bianca/index.html"
                                         target="_self"
                                         class="pc-img-wrapper"
-                                    >
+                                    > -->
                                         <picture class="">
                                             <img
-                                                src="../media/filer_public/7b/6f/7b6f7dd7-019b-42d6-88f5-a45398a6f966/generated_pastabianca_copia.jpg.1200x900_q100_crop.jpg"
+                                                src="../media/home_photos/600x1200.png"
                                                 width="1200"
                                                 height="900"
                                                 alt="Pasta bianca la soluzione per ogni tipo di parete"
                                             />
                                         </picture>
-                                    </a>
+                                    <!-- </a> -->
                                 </div>
                             </div>
                             <div class="grid-x light-gray-color align-middle">
                                 <div class="cell large-6">
-                                    <a
+                                    <!-- <a
                                         href="news/product-focus/planc-project-20x180/index.html"
                                         target="_self"
                                         class="pc-img-wrapper"
-                                    >
+                                    > -->
                                         <picture class="">
                                             <img
-                                                src="../media/filer_public/04/ea/04ea12d1-bba0-4f6e-b761-71392314ec90/generated_supergres_4ever__havana_camera_bagno.jpg.1200x900_q100_crop.jpg"
+                                                src="../media/home_photos/800x1600.png"
                                                 width="1200"
                                                 height="900"
                                                 alt="Plank Project 20x120 CM"
                                             />
                                         </picture>
-                                    </a>
+                                    <!-- </a> -->
                                 </div>
                                 <div class="cell large-6">
                                     <div
@@ -1280,85 +922,25 @@
                                             class="heading weight-extra-bold txt-uppercase h3 space-down"
                                         >
                                             <!-- PLANK PROJECT 20X180<br /> <span>20X180 CM. PORCELAIN PLANK TILES</span> -->
-                                            Kam jis n<br />
+                                            800 x 1600<br />
                                             <span
-                                                >Kam jis n<br />Kam jis n<br />
-                                                Kam jis n</span
+                                                >800 x 1600<br />800 x 1600</span
                                             >
                                         </h2>
-                                        <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. Animi
-                                            dolores exercitationem deleniti?
-                                            Quae repudiandae sint in minus harum
-                                            nihil sit consequatur, ipsum
-                                            laudantium veniam illum nam
-                                            voluptatum quas dolorum eligendi!
+                                        <span class="home-desc-text">Make a Bold Statement with 800 x 1600 mm Ceramic Tiles</span>
+                                        <p>Make a bold statement with our 800 x 1600 mm ceramic tiles, perfect for creating dramatic and luxurious spaces with fewer grout lines and a sleek, seamless finish. These large-format tiles are ideal for grand living areas, master bathrooms, upscale hotels, and premium retail stores. Crafted from high-quality ceramic, they are durable, easy to maintain, and available in sophisticated designs like luxurious marble, industrial chic, and natural stone, all produced using eco-friendly processes.
                                         </p>
-                                        <a
+                                        <!-- <a
                                             class="btn space-up-x2 btn--text"
                                             href="news/product-focus/plank-project-20x180/index.html"
                                             target="_self"
                                         >
                                             see more
-                                        </a>
+                                        </a> -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="grid-x light-gray-color align-middle">
-                                <div
-                                    class="cell order-2-medium order-2-small large-6"
-                                >
-                                    <div
-                                        class="content-w column-dir main_start cross_start pad-up-x3 pad-up-x2-medium pad-up-small pad-right-x3 pad-right-x2-medium pad-right-small pad-down-x3 pad-down-x2-medium pad-down-small pad-left-x3 pad-left-x2-medium pad-left-small"
-                                    >
-                                        <h2
-                                            class="heading weight-extra-bold txt-uppercase h3 space-down"
-                                        >
-                                            <!-- PROJECT 22,5X45<br /> <span>OUTDOOR TAKES SHAPES <br /></span> -->
-                                            Kam jis n<br />
-                                            <span
-                                                >Kam jis n<br />Kam jis n<br />
-                                                Kam jis n</span
-                                            >
-                                        </h2>
-                                        <p>
-                                            Lorem, ipsum dolor sit amet
-                                            consectetur adipisicing elit. Dolor,
-                                            assumenda incidunt amet totam neque
-                                            consectetur corporis facere
-                                            temporibus iure velit repudiandae.
-                                            Accusantium nobis unde recusandae
-                                            facilis qui neque at veritatis.
-                                        </p>
-                                        <a
-                                            class="btn space-up-x2 btn--text"
-                                            href="news/product-focus/project-225x45-outdoor-takes-shapes/index.html"
-                                            target="_self"
-                                        >
-                                            see more
-                                        </a>
-                                    </div>
-                                </div>
-                                <div
-                                    class="cell order-1-medium order-1-small large-6"
-                                >
-                                    <a
-                                        href="#"
-                                        target="_self"
-                                        class="pc-img-wrapper"
-                                    >
-                                        <picture class="">
-                                            <img
-                                                src="../media/filer_public/c6/15/c6154bbe-4697-452c-8a4f-89a1213085d1/generated_supergres_adige_bolzano_225x45.jpg.1200x900_q100_crop.jpg"
-                                                width="1200"
-                                                height="900"
-                                                alt="Project 22.5x45"
-                                            />
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -1409,10 +991,12 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 footer-logo">
-                            <img
+                            <a href="index.html">
+                              <img
                                 src="weblogo-removebg-preview.png"
                                 alt="logo_footer"
                             />
+                            </a>
                         </div>
                         <div class="col-lg-3 col-md-6 footer-contact">
                             <h3>Cerasatar</h3>
@@ -1438,9 +1022,9 @@
                             <h4>Quick Links</h4>
                             <ul>
                                 <li><a href="index.html">Home</a></li>
+                                <li><a href="#">About Us</a></li>
                                 <li><a href="#">Collection</a></li>
-                                <li><a href="#">Outdoor</a></li>
-                                <li><a href="#">Delear</a></li>
+                                <li><a href="calc.html">Interactive</a></li>
                                 <li><a href="#">Contact Us</a></li>
                                 <li><a href="downloads.html">Downloads</a></li>
                             </ul>
@@ -1448,10 +1032,10 @@
                         <div class="col-lg-3 col-md-6 footer-links">
                             <h4>Products</h4>
                             <ul>
+                                <li><a href="#">12 x 24</a></li>
                                 <li><a href="#">600 x 600</a></li>
                                 <li><a href="#">600 x 1200</a></li>
                                 <li><a href="#">800 x 1600</a></li>
-                                <li><a href="#">1200 x 2400</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1495,32 +1079,6 @@
                 <div class="side-panel__content">
                     <div class="side-panel__header text-right">
                         <div class="grid-x">
-                            <div class="cell large-auto">
-                                <div class="lang-switcher">
-                                    <ul class="menu horizontal nav nav--langs">
-                                        <li>
-                                            <a href="../it/index.html" class=""
-                                                >Italian</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="index.html" class="current"
-                                                >English</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="../fr/index.html" class=""
-                                                >French</a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a href="../de/index.html" class=""
-                                                >German</a
-                                            >
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
                             <div class="cell large-shrink">
                                 <a
                                     class="side-panel__closer"

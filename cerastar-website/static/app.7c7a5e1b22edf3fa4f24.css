@@ -5413,7 +5413,8 @@ screen and (min-width:40em) {
     }
 
     .transparent-header:not(.blend-mega) .header .menu.nav--primary>li>a:hover {
-        color: #e3e3e3
+        color: #2b2b2b;
+        /* border-bottom: 1px solid black; */
     }
 
     .transparent-header:not(.blend-mega) .header .mobile-button svg {
@@ -8953,7 +8954,9 @@ screen and (min-width:40em) and (max-width:63.99875em) {
 .download-area-head {
     margin: 1.875rem 0
 }
-
+.dropdown-toggle::after{
+    display: none !important;
+}
 .faq-list__header {
     margin-bottom: 15px
 }
@@ -15521,8 +15524,43 @@ screen and (min-width:40em) {
     width: 24px;
     height: 24px;
 }
+.home-desc-text{
+    font-size: large;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+/* hover effect  */
 
 
+.button {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    overflow: hidden;
+    transition: color 0.3s ease;
+  }
 
+  /* Button hover effect */
+  .button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 0;
+    height: 3px;
+    background-color: #333;
+    transition: width 0.3s ease, left 0.3s ease;
+    transform: translateX(50%);
+  }
+
+  /* Hover state */
+  .button:hover::after {
+    width: 100%;
+    left: -50%;
+  }
 
 /*# sourceMappingURL=app.7c7a5e1b22edf3fa4f24.css.map */
