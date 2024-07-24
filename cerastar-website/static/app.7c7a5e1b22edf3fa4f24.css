@@ -173,7 +173,7 @@ select {
 [type=reset],
 [type=submit],
 button {
-    -webkit-appearance: button
+    -webkit-appearance: button;
 }
 
 [type=button]::-moz-focus-inner,
@@ -3655,7 +3655,7 @@ screen and (min-width:64em) {
     }
 }
 
-[type=color],
+/* [type=color],
 [type=date],
 [type=datetime-local],
 [type=datetime],
@@ -3688,7 +3688,7 @@ textarea {
     transition: box-shadow .5s, border-color .25s ease-in-out;
     -webkit-appearance: none;
     appearance: none
-}
+} */
 
 [type=color]:focus,
 [type=date]:focus,
@@ -4759,7 +4759,7 @@ screen and (min-width:64em) {
 .drilldown .js-drilldown-back>a:before {
     display: block;
     display: inline-block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     margin-right: .75rem
 }
 
@@ -15332,7 +15332,7 @@ screen and (min-width:40em) {
     color: black;
 }
 .downloads h3{
-    margin: 40px;
+    margin-top: 40px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -15549,18 +15549,81 @@ screen and (min-width:40em) {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 0%;
-    width: 0;
-    height: 3px;
-    background-color: #333;
-    transition: width 0.3s ease, left 0.3s ease;
-    transform: translateX(50%);
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: transparent;
+    transition: height 0.4s ease, background-color 0.4s ease;
   }
 
   /* Hover state */
   .button:hover::after {
-    width: 100%;
-    left: -50%;
+    height: 3px;
+    background-color: #000; /* Change to the desired darker color */
+  }
+
+
+
+
+/* calculator page  */
+
+.cal-side input{
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+
+
+/* dropdown menu  */
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .nav-item {
+    list-style: none;
+    position: relative;
+    margin-right: 1em;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: #000;
+    padding: 0.5em 1em;
+    display: block;
+  }
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.1);
+    padding: 0.5em 0;
+    min-width: 10em;
+  }
+  .dropdown-item {
+    padding: 0.5em 1em;
+  }
+  .dropdown-item:hover {
+    background-color: #e9ecef;
+  }
+  .dropdown .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: 0.1em;
   }
 
 /*# sourceMappingURL=app.7c7a5e1b22edf3fa4f24.css.map */
