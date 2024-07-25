@@ -122,3 +122,34 @@ function toggleModal() {
     const modal = document.getElementById('contactModal');
     modal.classList.toggle('active');
 }
+
+
+
+// preloader 
+
+var preloadTime;
+
+function preloader() {
+    preloadTime = setTimeout(showPage, 3000); // Adjust the timeout as needed
+}
+
+function showPage() {
+    document.getElementById("preloader").style.display = "none";
+    document.getElementById("content").style.display = "block";
+}
+
+
+
+// on scroll change navbar bg 
+
+document.addEventListener("DOMContentLoaded", function() {
+    var navbar = document.getElementById("navbarr");
+    
+    window.onscroll = function() {
+        if (window.scrollY > 0) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
+    };
+});

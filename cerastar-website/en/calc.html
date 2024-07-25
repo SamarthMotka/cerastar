@@ -336,43 +336,74 @@
             </div>
         </header>
         <section class="heading-downloads">
-            <div class="container my-5 text-center">
-                <span><a href="index.html">Home</a> / Interactive / Tiles Calculator</span>
-            </div>
-            <div class="text-center downloads">
+            
+            
+            <div class=" container text-center downloads">
                 <h3>Tiles Calculator</h3>
             </div>
         </section>
 
+
+
+
         <section class="calculator">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-10 col-md-6 calc-left text-center">
                         <h1>Tiles Calculation</h1>
                         <form action="">
                             <div class="row cal-side">
-                                <div class="col col-md-6"><input type="text" placeholder="Tiles Length (feet)"></div>
-                                <div class="col col-md-6"><input type="text" placeholder="Tiles Width (feet)"></div>
+                                <div class="col col-md-3"><input type="text" placeholder="Tiles Length (feet)"></div>
+                                <div class="col col-md-3"><input type="text" placeholder="Tiles Width (feet)"></div>
                             </div>
-                            <option value=""></option>
-                            <div class="row">
+                            
+                            <div class="row option">
+                                <select class="form-control" id="tileSize">
+                                    <option>Select Size *</option>
+                                    <option>12 x 24 inch</option>
+                                    <option>600 x 600 mm</option>
+                                    <option>600 x1200 mm</option>
+                                    <option>800 x1600 mm</option>
+                                </select>
+                            </div>
+                            <div class="row calc-left-btn ">
                                 <button>Calculate</button>
                                 <button>Clear Result</button>
                             </div>
                         </form>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 text-center calc-right">
                         <h1>Total Area Covered</h1>
                         <div class="row">
                             <div class="row">
                                 <div class="col-12 col-md-6">
-                                    <label for="Sqm">SQUARE METER</label>
+                                    
+                                    <div class="sqm">
+                                        <label for="Sqm">SQUARE METER</label>
+                                        <input type="text" disabled placeholder="">
+                                    </div>
+                                    
                                 </div>
-                                <div class="col-12 col-md-6"></div>
+                                <div class="col-12 col-md-6">
+                                    <div class="sqf">
+                                        <label for="Sqm">SQUARE Feets</label>
+                                        <input type="text" disabled placeholder="">
+                                    </div>
+                                </div>
                             </div>
                             <div class="row">
-                                <div class="col-12 col-md-6"></div>
-                                <div class="col-12 col-md-6"></div>
+                                <div class="col-12 col-md-6">
+                                    <div class="tiles">
+                                        <label for="Sqm">REQUIRED TILES</label>
+                                        <input type="text" disabled placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="box">
+                                        <label for="Sqm">REQUIRED BOX</label>
+                                        <input type="text" disabled placeholder="">
+                                    </div>
+                                </div>
                             </div>
                             <p>This may very on basis of your actual need. This is only approx calculation.</p>
                         </div>
