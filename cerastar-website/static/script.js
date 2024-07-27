@@ -167,3 +167,62 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
 });
+
+  /**
+   * Portfolio details slider
+   */
+  new Swiper('.portfolio-details-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('.swiper-slide img');
+    slides.forEach(slide => {
+        slide.addEventListener('mousemove', function(event) {
+            const lens = createLens(event, slide);
+            moveLens(event, lens, slide);
+            slide.parentElement.appendChild(lens);
+
+            slide.addEventListener('mousemove', (e) => moveLens(e, lens, slide));
+            slide.addEventListener('mouseout', () => lens.remove());
+        });
+    });
+
+    function createLens(event, slide) {
+        const lens = document.createElement('div');
+        lens.classList.add('zoom-lens');
+        lens.style.backgroundImage = `url(${slide.src})`;
+        return lens;
+    }
+
+    function moveLens(event, lens, slide) {
+        const slideRect = slide.getBoundingClientRect();
+        const lensSize = 100;
+        let x = event.clientX - slideRect.left - lensSize / 2;
+        let y = event.clientY - slideRect.top - lensSize / 2;
+
+        if (x > slide.width - lensSize) x = slide.width - lensSize;
+        if (x < 0) x = 0;
+        if (y > slide.height - lensSize) y = slide.height - lensSize;
+        if (y < 0) y = 0;
+
+        lens.style.left = `${x}px`;
+        lens.style.top = `${y}px`;
+        lens.style.backgroundPosition = `-${x * 1.5}px -${y * 1.5}px`;
+        lens.style.display = 'block';
+        lens.style.width = `${lensSize}px`;
+        lens.style.height = `${lensSize}px`;
+    }
+});
