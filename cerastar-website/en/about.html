@@ -79,7 +79,7 @@
         <div id="cerastar-preloader" class="preloader-home">
             <div class="preloader__container"></div>
         </div>
-        <header class="header">
+        <header class="header" id="navbarr">
             <div class="grid-container">
                 <div class="header__wrapper">
                     <div class="grid-x grid-margin-x align-middle">
@@ -87,72 +87,61 @@
                             class="cell small-8 medium-offset-0 medium-auto large-3"
                         >
                             <div class="logo">
-                                <a href="index.html"><img
-                                 src="./weblogo-removebg-preview.png"
-                                 width="150px"
-                                 height="150px"
-                             /></a>
+                                <a href="index.html"
+                                    ><img
+                                        src="./weblogo-removebg-preview.png"
+                                        width="120px"
+                                        height="120px"
+                                /></a>
                             </div>
                         </div>
-                        <div class="cell large-auto show-for-large">
+                        <div class="cell large-auto show-for-large navbar" id="navbar">
                             <ul class="dropdown menu nav nav--primary">
-                              <li class="nav__item nav--primary__item">
-                                 <a
-                                     class=" button nav__link nav--primary__link"
-                                     href="about.html">
-                                     ABOUT US
-                                 </a>
-                             </li>  
-                              <li class="nav__item nav--primary__item">
-                                 <a
-                                     class="button nav__link nav--primary__link"
-                                     href="calc.html"
-                                 >
-                                     INTERACTIVE
-                                 </a>
-                             </li>  
-                              
-                              <li class="nav__item nav--primary__item nav-item">
+                                <li class="nav__item nav--primary__item">
                                     <a
-                                        class=" dropdown button nav__link nav--primary__link nav-link"
-                                        href="#"
+                                        class="button nav__link nav--primary__link"
+                                        href="about.html"
                                     >
-                                        COLLECTIONS
+                                        ABOUT US
                                     </a>
-                                    
-                                    <!-- <div
-                                        class="sub-main-menu-w mega-menu-wrapper"
-                                    >
-                                        <ul class="menu vertical sub-main-menu">
-                                            <li>
-                                                <div
-                                                    data-menu-content
-                                                    class="full-width"
-                                                >
-                                                    <div
-                                                        class="sub-main-menu__loader"
-                                                        data-menu-loader
-                                                    >
-                                                        <svg
-                                                            class="spinner"
-                                                            viewBox="0 0 66 66"
-                                                            xmlns="http://www.w3.org/2000/svg"
-                                                        >
-                                                            <circle
-                                                                class="path"
-                                                                fill="none"
-                                                                stroke-width="3"
-                                                                stroke-linecap="round"
-                                                                cx="33"
-                                                                cy="33"
-                                                                r="30"
-                                                            ></circle>
-                                                        </svg>
-                                                    </div>
-                                                </div>
+                                </li>
+                                <li class="dropdown nav__item nav--primary__item">
+                                    <a class="button nav__link nav--primary__link"
+                                        href="#">
+                                        INTERACTIVE </a>
+                                        <ul>
+                                            <li class="sub-dropdown"><a href="calc.html"><span>Tiles Calculator</span></a>
+                                                
                                             </li>
                                         </ul>
-                                    </div> -->
+                                </li>
+
+                                <li class=" dropdown nav__item nav--primary__item nav-item" >
+                                    <a class=" button nav__link nav--primary__link nav-link"
+                                        href="#">COLLECTIONS</a>
+                                        <ul>
+                                             <li class="sub-dropdown"><a href="#"><span>GLossy</span></a>
+                                               <ul>
+                                                 <li><a href="#">600x600</a></li>
+                                                 <li><a href="#">1200x800</a></li>
+                                                </ul>
+                                             </li>
+                                             <li class="sub-dropdown"><a href="#"><span>Matt</span></a>
+                                               <ul>
+                                                 <li><a href="#">800x600</a></li>
+                                                 <li><a href="#">1200x600</a></li>
+                                                </ul>
+                                             </li>
+                                             <li class="sub-dropdown"><a href="#"><span>pgvt</span></a>
+                                               <ul>
+                                                 <li><a href="#">600x600</a></li>
+                                                 <li><a href="#">12x24</a></li>
+                                                </ul>
+                                             </li>
+                          
+                                        </ul>
+
+
                                 </li>
                                 <!-- <li class="nav__item nav--primary__item"> <a class="nav__link  nav--primary__link"
                            href="downloads/index.html"> DOWNLOADS </a> </li>
@@ -173,7 +162,7 @@
                                         class="button nav-link"
                                     >
                                         DOWNLOAD
-                                </a>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -312,11 +301,7 @@
                             >
                         </li>
                         <li class="child style-3">
-                            <a
-                                href="calc.html"
-                                target="_self"
-                                >Interactive</a
-                            >
+                            <a href="calc.html" target="_self">Interactive</a>
                         </li>
                         <li class="child style-5">
                             <a href="downloads.html" target="_self"
@@ -407,14 +392,6 @@
             <span class="close" onclick="toggleModal()">&times;</span>
         </div>
         <div class="modal-body">
-            <!-- <a href="https://wa.me/1234567890" target="_blank">
-                <img src="https://image.shutterstock.com/image-vector/whatsapp-icon-logo-vector-260nw-1151651998.jpg" alt="WhatsApp">
-                WhatsApp
-            </a> -->
-            <!-- <a href="https://m.me/yourpage" target="_blank">
-                <img src="https://image.shutterstock.com/image-vector/facebook-messenger-icon-vector-260nw-1128578056.jpg" alt="Messenger">
-                Messenger
-            </a> -->
             <a href="mailto:example@example.com">
                 <i class="bi bi-envelope"></i>Email us
             </a>
@@ -437,11 +414,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 footer-logo">
-                            <a href="index.html">
-                              <img
-                                src="weblogo-removebg-preview.png"
-                                alt="logo_footer"
-                            />
+                            <a class="footer-a-img" href="index.html">
+                                <img
+                                    src="weblogo-removebg-preview.png"
+                                    alt="logo_footer"
+                                />
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-6 footer-contact">

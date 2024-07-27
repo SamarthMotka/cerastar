@@ -77,7 +77,7 @@ function createCard(cardData) {
             <p class="mt-4 ">${cardData.description}</p>
         </div>
         <div class="display-btn">
-            <a href="${cardData.downloadUrl}" download="filename.pdf">DOWNLOAD</a>
+            <a href="${cardData.downloadUrl}" download >DOWNLOAD</a>
             <a href="${cardData.viewUrl}" target="_blank" class="view-pdf">VIEW</a>
         </div>
     `;
