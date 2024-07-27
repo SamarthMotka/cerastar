@@ -15669,5 +15669,50 @@ justify-content: center;
   }
 
   
-  
+  /* new calc  */
+
+  .form-group, .latest-prod {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    padding: auto;
+}
+.btn-frm1 {
+    background: #d1ac67;
+    color: white;
+    border: 1px solid #d1ac67;
+    width: 165px;
+    letter-spacing: 3px;
+    margin: 0px 20px;
+    /* font-weight: lighter; */
+    top: 0;
+    right: 0;
+    /* margin: 0px auto; */
+    padding: 10px 0px;
+}
+
+  .form-control {
+    font-size: 14px;
+    color: #999;
+    height: 50px;
+    border-radius: 0;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
   

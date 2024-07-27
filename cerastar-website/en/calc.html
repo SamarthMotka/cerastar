@@ -344,9 +344,113 @@
         </section>
 
 
+        <div class="form-detail" style="padding-top:5%;padding-bottom:5%">
+            <div class="row">
+                <div class="col-md-6" style="border: 1px solid #f2f2f2;padding: 50px;">
+                <h6>Tiles Calculation</h6><hr>
+                    <div style="padding-top:4%">
+                        <div class="row">
+                            
+                            <!--<div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <select class="form-control" required="">
+                                            <option>Select Application</option>
+                                            <option value="Floor">Floor</option>
+                                            <option value="Wall">Wall</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>--->
+                            <!--<div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <select class="form-control" required="">
+                                            <option>Select Unit</option>
+                                            <option value="Squire Meter">Square Meter</option>
+                                            <option value="Squire Feet">Square Feet</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>-->
+                            
+                        
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                 <input class="form-control" id="SLength" name="SLength" type="text" placeholder="Tiles Length (feet)" required="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="SWidth" name="SWidth" type="text" placeholder="Tiles Width (feet)" required="">
+                                </div>
+                            </div>
+                    
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <select id="sizes" name="sizes" class="form-control" required="">
+                                            <option>Select Size *</option>
+                                            <option>12 x 24 inch</option>
+                                            <option>600 x 600 mm</option>
+                                            <option>600 x1200 mm</option>
+                                            <option>800 x1600 mm</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="col-md-12" style="padding-top:3%">
+                                <div class="form-group">
+                                    <button type="submit" onclick="calculate()" value="Calculate" class="btn-frm1"> Calculate</button>
+                                    <button type="submit" onclick="window.location.reload(true);" class="btn-frm1">Clear Result </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style="border: 1px solid #f2f2f2;padding: 50px;">
+                    <h6>Total Area Covered</h6><hr>
+                    <form style="padding-top:0%">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Square Meter</label>
+                                    <input type="text" name="ar_mtr" id="ar_mtr" size="6" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Square Feet</label>
+                                    <input type="text" id="ar_feet" maxlength="10" name="ar_feet" class="form-control"> 
+                                </div>
+                            </div>	
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Required Tiles</label>
+                                    <input type="text" name="TotalTiles" id="TotalTiles" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Required Boxes</label>
+                                    <input type="text" id="TotalBoxes" maxlength="10" name="TotalBoxes" class="form-control">
+                                </div>
+                            </div>	
+                                
+                            <div class="col-md-12" style="padding-top:3%">
+                                <hr><p>This may very on basis of your actual need. This is only approx calculation.</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
 
-        <section class="calculator">
+
+        <!-- <section class="calculator">
             <div class="container">
                 <div class="row">
                     <div class="col-10 col-md-6 calc-left text-center">
@@ -410,7 +514,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- footer   -->
         <footer id="footer" class="mt-5">

@@ -7,17 +7,45 @@
 const cardData = [
     {
         imageUrl: "https://res.cloudinary.com/da5crwlqh/image/upload/v1718292543/Khoj/Wearables/Kids/luaca1bx8ocn7ho6st9r.jpg",
-        description: "600 x600",
-        downloadUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
-        viewUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
+        description: "PGVT 600 x 600",
+        downloadUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/WL_PGVT-3_Staturio_600x600mm.pdf",
+        viewUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/WL_PGVT-3_Staturio_600x600mm.pdf",
         category: "60" // Add your category name here
     },
     {
         imageUrl: "https://res.cloudinary.com/da5crwlqh/image/upload/v1718292543/Khoj/Wearables/Kids/luaca1bx8ocn7ho6st9r.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        downloadUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
-        viewUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
+        description: "WL 600 x 600",
+        downloadUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/WL_3D+Series_600x600mm.pdf",
+        viewUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/WL_3D+Series_600x600mm.pdf",
+        category: "60" // Add your category name here
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/da5crwlqh/image/upload/v1718292543/Khoj/Wearables/Kids/luaca1bx8ocn7ho6st9r.jpg",
+        description: "Rainbow 600 x 1200",
+        downloadUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/High+Gloss_800x1600+MM.pdf",
+        viewUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/High+Gloss_800x1600+MM.pdf",
         category: "12" // Add your category name here
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/da5crwlqh/image/upload/v1718292543/Khoj/Wearables/Kids/luaca1bx8ocn7ho6st9r.jpg",
+        description: "Glossy 600 x 1200",
+        downloadUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/Rubito+Glossy+Master+Collection+2022+V1.pdf",
+        viewUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/Rubito+Glossy+Master+Collection+2022+V1.pdf",
+        category: "12" // Add your category name here
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/da5crwlqh/image/upload/v1718292543/Khoj/Wearables/Kids/luaca1bx8ocn7ho6st9r.jpg",
+        description: "HIGH GLOSS 800 x 1600",
+        downloadUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/Carving_800x1600+MM.pdf",
+        viewUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/Carving_800x1600+MM.pdf",
+        category: "16" // Add your category name here
+    },
+    {
+        imageUrl: "https://res.cloudinary.com/da5crwlqh/image/upload/v1718292543/Khoj/Wearables/Kids/luaca1bx8ocn7ho6st9r.jpg",
+        description: "Craving 800 x 1600",
+        downloadUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/Carving_800x1600+MM.pdf",
+        viewUrl: "https://cerastar.s3.ap-south-1.amazonaws.com/s3/Carving_800x1600+MM.pdf",
+        category: "16" // Add your category name here
     },
     {
         imageUrl: "https://res.cloudinary.com/da5crwlqh/image/upload/v1718292543/Khoj/Wearables/Kids/luaca1bx8ocn7ho6st9r.jpg",
@@ -31,21 +59,7 @@ const cardData = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         downloadUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
         viewUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
-        category: "16" // Add your category name here
-    },
-    {
-        imageUrl: "https://res.cloudinary.com/da5crwlqh/image/upload/v1718292543/Khoj/Wearables/Kids/luaca1bx8ocn7ho6st9r.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        downloadUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
-        viewUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
-        category: "16" // Add your category name here
-    },
-    {
-        imageUrl: "https://res.cloudinary.com/da5crwlqh/image/upload/v1718292543/Khoj/Wearables/Kids/luaca1bx8ocn7ho6st9r.jpg",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        downloadUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
-        viewUrl: "../media/products/pdf/Glossy_800x1600MM.pdf",
-        category: "16" // Add your category name here
+        category: "24" // Add your category name here
     },
     // Add more card data objects as needed
 ];
