@@ -5297,10 +5297,37 @@ figure figcaption {
     z-index: 20;
     width: 100%;
 }
-
+.product-des {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.product-des, .product-des a {
+    color: #353637;
+    font-size: 12px;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: block;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
 .logo a {
     display: block;
     max-width: 240px;
+}
+.logo img{
+    width: 180px;
+    height: 180px;
+}
+
+.change-size{
+    width: 120px !important;
+    height: 120px !important;
+    transition: ease-in-out 0.5s;
 }
 
 .scrolled{
@@ -5308,6 +5335,7 @@ figure figcaption {
     transition: ease 0.5s;
     color: black !important;
     position: fixed !important;
+
 }
 
 @media print, screen and (min-width: 40em) {
@@ -15449,6 +15477,8 @@ picture.fx-img-brightness > a:hover img {
     z-index: 1;
   }
 
+  
+
   /*--------------------------------------------------------------
 # Alt Services 2 Section
 --------------------------------------------------------------*/
@@ -15876,4 +15906,38 @@ select {
     height: 100%;
   }
 
-  
+  /* zooming image  */
+
+.magnify{
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 200px;
+    height: 200px;
+    background-color: rgba(84, 84, 84, 0.208);
+    z-index: 20000;
+    opacity: 0;
+}
+.magnify.active{
+opacity: 1;
+}
+.someee{
+position: relative;
+}
+.magnified{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #bc686844;
+    transform: scale(0.5);
+    opacity: 0;
+    transition: opacity .5s, transform .5s;
+}
+.magnified.active{
+   opacity: 1;
+   transform: scale(1);
+}
+
+
