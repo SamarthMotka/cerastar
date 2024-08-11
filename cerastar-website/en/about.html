@@ -55,10 +55,7 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-        />
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -70,8 +67,18 @@
             crossorigin="anonymous"
         ></script>
     </head>
-    <body class="transparent-header" onload="preloader()"> 
-
+    <body class="transparent-header">
+        <noscript
+            ><iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-PPLN2WP"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
+        <div id="cerastar-preloader" class="preloader-home">
+            <div class="preloader__container"></div>
+        </div>
         <header class="header" id="navbarr">
             <div class="grid-container">
                 <div class="header__wrapper">
@@ -111,7 +118,7 @@
                                     <a class=" button nav__link nav--primary__link nav-link"
                                         href="#">COLLECTIONS</a>
                                         <ul>
-                                             <li class="sub-dropdown " ><a href="#"><span>GLossy</span></a>
+                                             <li class="sub-dropdown"><a href="#"><span>GLossy</span></a>
                                                <ul>
                                                  <li><a href="#">600x600</a></li>
                                                  <li><a href="#">1200x800</a></li>
@@ -243,34 +250,29 @@
                                 >Collections</a
                             >
                             <ul class="menu">
-                                <!-- <li>
-                                    <a class="" href="collection.html"
-                                        >All Collections</a
-                                    >
-                                </li> -->
                                 <li>
                                     <a
                                         class=""
-                                        href="collections/your-home/floor-tiles/index.html"
+                                        href="product.html"
                                         >12 x 24</a
                                     >
                                 </li>
                                 <li>
-                                    <a class="" href="floor-tiles/index.html"
+                                    <a class="" href="product.html"
                                         >600 x 600</a
                                     >
                                 </li>
                                 <li>
                                     <a
                                         class=""
-                                        href="collections/your-home/wall/index.html"
+                                        href="product.html"
                                         >600 x 1200</a
                                     >
                                 </li>
                                 <li>
                                     <a
                                         class="slabs"
-                                        href="ceramiche-supergres-120x278-slabs/index.html"
+                                        href="product.html"
                                         >800 x 1600</a
                                     >
                                 </li>
@@ -282,10 +284,22 @@
                                 target="_self"
                                 >About us</a
                             >
+                            
                         </li>
                         <li class="child style-3">
-                            <a href="calc.html" target="_self">Interactive</a>
+                            <a href="" target="_self">Interactive</a>
+                            <ul class="menu">
+                                <li>
+                                    <a
+                                        class=""
+                                        href="calc.html"
+                                        >Tiles Calculator</a
+                                    >
+                                </li>
+                                               
+                            </ul>
                         </li>
+                        
                         <li class="child style-5">
                             <a href="downloads.html" target="_self"
                                 >Downloads</a
@@ -299,7 +313,8 @@
                     </ul>
                 </div>
             </div>
-        </header>  
+        </header>
+        
 
         <section class="about-img-bg">
             <h1>ABOUT US</h1>
