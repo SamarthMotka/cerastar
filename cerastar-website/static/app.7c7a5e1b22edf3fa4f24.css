@@ -5399,6 +5399,10 @@ figure figcaption {
     font-size: 1.5rem;
 }
 
+.menu.nav--mobile > li > a {
+    color: black;
+}
+
 .menu.nav--langs li a {
     text-transform: capitalize;
     color: #ccc;
@@ -8768,6 +8772,9 @@ button.swiper-pagination-bullet {
 
 .menu.vertical li a {
     text-align: left;
+}
+.menu.vertical li a {
+    color: black;
 }
 
 .menu.vertical.mm-align-left {
@@ -15030,6 +15037,7 @@ picture.fx-img-brightness > a:hover img {
     justify-content: center;
     cursor: pointer;
     font-size: 24px;
+    z-index: 1000;
 }
 
 .contact-modal {
@@ -15669,17 +15677,22 @@ justify-content: center;
   }
 
   .navbar .dropdown ul li {
-    min-width: 100px;
+    min-width: 150px;
+
   }
   
   .navbar .dropdown ul a {
     padding: 10px 20px;
     font-size: 14px;
+
     /* color: #003651; */
   }
   
   .navbar .dropdown ul a i {
     font-size: 12px;
+  }
+  .sub-dropdown a{
+    padding-left: 25px !important;
   }
   
   
@@ -15691,7 +15704,7 @@ justify-content: center;
   
   .navbar .dropdown .dropdown ul {
     top: 100%;
-    left: 0%;
+    left: 100%;
     /* left: calc(100% - 30px); */
     visibility: hidden;
   }
