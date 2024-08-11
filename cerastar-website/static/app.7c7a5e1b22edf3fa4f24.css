@@ -5290,10 +5290,11 @@ figure figcaption {
 }
 
 .header {
-    position: relative ;
+    position: sticky ;
     /* padding-top: 25px;
     padding-bottom: 25px; */
     background-color: #fff;
+    top: 0%;
     z-index: 20;
     width: 100%;
 }
